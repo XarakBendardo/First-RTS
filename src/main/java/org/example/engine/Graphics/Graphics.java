@@ -1,4 +1,4 @@
-package org.example.engine.GameMap;
+package org.example.engine.Graphics;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

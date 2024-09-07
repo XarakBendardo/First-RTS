@@ -3,6 +3,7 @@ package org.example.engine.GameMap;
 import lombok.Getter;
 
 public class GameMap {
+    @Getter
     private final GameMapField[][] fields;
 
     @Getter
