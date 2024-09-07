@@ -6,13 +6,12 @@ import java.util.Map;
 
 public class GameMapField {
     public enum FieldType {
-        DIRT, GRASS, FOREST, ROCK, WATER
+        DIRT, GRASS, ROCK, WATER
     }
 
     public static final Map<FieldType, Character> fieldType2Char = Map.of(
             FieldType.DIRT, 'd',
             FieldType.GRASS, 'g',
-            FieldType.FOREST, 'f',
             FieldType.ROCK, 'r',
             FieldType.WATER, 'w'
     );

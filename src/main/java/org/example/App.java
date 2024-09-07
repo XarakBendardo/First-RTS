@@ -1,15 +1,20 @@
 package org.example;
 
 import org.example.engine.GameMap.GameMapGenerator;
+import org.example.engine.GameMap.PaintingManager;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args ) {
-        var map = GameMapGenerator.generateGameMap(10, 10);
-        System.out.println(map);
+import javax.swing.*;
+
+
+public class App {
+    public static void main(String[] args) {
+        var map = GameMapGenerator.generateGameMap(30, 20);
+        var frame = new JFrame();
+        var mapPanel = PaintingManager.GameMapPanel(map);
+
+        frame.add(mapPanel);
+        frame.pack();
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.setVisible(true);
     }
 }
