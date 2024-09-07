@@ -1,10 +1,10 @@
-package org.example.engine.Graphics;
+package org.example.engine.Components;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class MainFrame extends JFrame {
-    MainFrame() {
+    public MainFrame() {
         GraphicsEnvironment.getLocalGraphicsEnvironment()
                 .getDefaultScreenDevice()
                 .setFullScreenWindow(this);
