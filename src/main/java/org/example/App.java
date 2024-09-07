@@ -8,7 +8,7 @@ import javax.swing.*;
 
 public class App {
     public static void main(String[] args) {
-        var map = GameMapGenerator.generateGameMap(30, 20);
+        var map = GameMapGenerator.generateGameMap(60, 60);
         var frame = new JFrame();
         var mapPanel = PaintingManager.GameMapPanel(map);
 

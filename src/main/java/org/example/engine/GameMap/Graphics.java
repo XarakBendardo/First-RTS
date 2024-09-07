@@ -20,7 +20,7 @@ public class Graphics {
         }
         private static final BufferedImage dirtImage, grassImage, waterImage, rockImage;
 
-        public static final int FIELD_SIZE = 32;
+        public static final int FIELD_SIZE = 16;
 
         public static BufferedImage Dirt() {
             return dirtImage;
